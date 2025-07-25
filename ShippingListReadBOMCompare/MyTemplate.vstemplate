@@ -1,0 +1,50 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>31.035-ShippingList</Name>
+    <Description>Shipping List Read BOM instead of drawings</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>31.035-ShippingList</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="31.035-ShippingList.vbproj" File="31.035-ShippingList.vbproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-app.config">31.035-app.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-AssemblyInfo.vb">31.035-AssemblyInfo.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="31.035-ClassDiagram1.cd">31.035-ClassDiagram1.cd</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-Comparison.vb">31.035-Comparison.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-File.vb">31.035-File.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-Formatting.vb">31.035-Formatting.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-MatrixTools.vb">31.035-MatrixTools.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-Misc.vb">31.035-Misc.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-SaveAsFilename.vb">31.035-SaveAsFilename.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-SaveAsFilename.Designer.vb">31.035-SaveAsFilename.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-SaveAsFilename.resX">31.035-SaveAsFilename.resX</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-ShippingList Menu.vb">31.035-ShippingList Menu.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-ShippingList Menu.Designer.vb">31.035-ShippingList Menu.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-ShippingList Menu.resx">31.035-ShippingList Menu.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="31.035-ShippingList.ico">31.035-ShippingList.ico</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="31.035-ShippingList_TemporaryKey.pfx">31.035-ShippingList_TemporaryKey.pfx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-ThisDrawing.vb">31.035-ThisDrawing.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-ThisWorkbook.vb">31.035-ThisWorkbook.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-UpgradeSupport.vb">31.035-UpgradeSupport.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-ViewFilesDialog.vb">31.035-ViewFilesDialog.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-ViewFilesDialog.Designer.vb">31.035-ViewFilesDialog.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="31.035-ViewFilesDialog.resX">31.035-ViewFilesDialog.resX</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="app.config">app.config</ProjectItem>
+      <Folder Name="My Project" TargetFolderName="My Project">
+        <ProjectItem ReplaceParameters="false" TargetFileName="app.manifest">app.manifest</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Application.myapp">Application.myapp</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Application.Designer.vb">Application.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.vb">Resources.Designer.vb</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
