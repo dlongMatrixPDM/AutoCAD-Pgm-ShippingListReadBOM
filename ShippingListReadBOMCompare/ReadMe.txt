@@ -1,1 +1,1 @@
-Creating folder structure for "ShippingListReadBOMCompare".
+Creating new driectory for read BOM to produce Shipping List. 
