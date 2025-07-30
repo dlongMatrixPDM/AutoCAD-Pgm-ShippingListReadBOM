@@ -2064,6 +2064,10 @@ EndPrg:
                     OldShipListFile.Close(False)
                 End If
 
+                If IsNothing(ReadBOMFile) = False Then              '-------DJL-07-30-2025      'Close BOM information has been collected.
+                    ReadBOMFile.Close(False)
+                End If
+
                 'If BOMType = "TANK" Then                           '-------DJL-------10-31-2023---Not needed anymore.
                 Comparison.InputType3.CompareArraysTank(ShippingList, OldBOM)                         'Comparison.InputType3.CompareArraysTank(NewBOM, OldBOM)
                 'ElseIf BOMType = "SEAL" Then

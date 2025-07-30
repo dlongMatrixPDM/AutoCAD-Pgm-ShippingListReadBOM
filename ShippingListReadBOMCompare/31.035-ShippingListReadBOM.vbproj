@@ -41,7 +41,7 @@
     <ProductName>Shipping List Generator</ProductName>
     <PublisherName>Matrix PDM Engineering-AutoCAD</PublisherName>
     <SuiteName>AutoCAD Programming</SuiteName>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>12.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>

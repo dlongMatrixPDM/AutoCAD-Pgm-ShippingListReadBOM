@@ -228,7 +228,7 @@ Partial Class ShippingList_Menu
         Me.GroupBox4.Size = New System.Drawing.Size(797, 169)
         Me.GroupBox4.TabIndex = 43
         Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "Drawings Found in Directory above.                        Selected Drawings"
+        Me.GroupBox4.Text = "Please Select a one BOM then the Add Button."
         '
         'CollectBOMList
         '
@@ -437,11 +437,11 @@ Partial Class ShippingList_Menu
         Me.Label4.Cursor = System.Windows.Forms.Cursors.Default
         Me.Label4.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label4.Location = New System.Drawing.Point(699, 92)
+        Me.Label4.Location = New System.Drawing.Point(786, 65)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label4.Size = New System.Drawing.Size(204, 26)
+        Me.Label4.Size = New System.Drawing.Size(117, 53)
         Me.Label4.TabIndex = 58
         Me.Label4.Text = "No of Items on BOM."
         '

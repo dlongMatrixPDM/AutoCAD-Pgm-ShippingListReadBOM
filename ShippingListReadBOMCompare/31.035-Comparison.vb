@@ -221,8 +221,9 @@ NextiA:
             Dim Test11First, Test11Second, Test12First, Test12Second, DashFound, NewInvNo, OldInvNo, NewQNo, OldQNo As String
             Dim NewStdNo, OldStdNo, NewMat, OldMat, NewWeight, OldWeight, DescNewFirst, DescNewSecond, DescOldFirst, DescOldSecond As String
             Dim Errno, PrgName, ErrMsg, ErrSource, FormString, ErrDll As String
-            Dim PriPrg, ErrLastLineX, SearchException As String
+            Dim PriPrg, ErrLastLineX, SearchException, JobNoCustOldReplace As String
             Dim ExceptPos, CntExcept, DWPos As Integer
+            Dim Title, Msg, Style, Response As Object           '-------DJL-07-30-2025      'Added
 
             On Error GoTo Err_CompareArraysTank
 
@@ -250,11 +251,37 @@ NextiA:
                         DwgNoNew = Mid(DwgNoNew, DWPos + 4, Len(DwgNoNew))
                     End If
 
+                    If InStr(DwgNoOld, "-DW-") Then     '-------DJL-07-30-2025      'New problem on Job Example:    5606-1107-210A-DW-08D01-01.dwg
+                        DWPos = InStr(DwgNoOld, "-DW-")
+
+                        DwgNoOld = Mid(DwgNoOld, DWPos + 4, Len(DwgNoOld))
+                    End If
+
                     If InStr(JobNoCustNew, GenInfo3135.FullJobNo) = 0 Then '-------DJL-06-30-2025      'New problem on Job Example:    212-25-006_05A.DWG
                         JobNoCustNew = (GenInfo3135.FullJobNo & "/" & JobNoCustNew)
                     End If
 
-                    Select Case True
+                    '-------DJL-07-30-2025      'Old Spreadsheets may not have Job No\Customer info.
+                    If JobNoCustNew <> JobNoCustOld And InStr(JobNoCustNew, JobNoCustOld) = 1 Then
+                        If JobNoCustOldReplace = "" Then           '-------DJL-07-30-2025      'Added
+                            '-------DJL-07-30-2025      'Added
+                            Msg = ("Job Number\Customer Info on old spreadsheet does not match new spreadsheet is this correct? " & JobNoCustNew)
+                            Style = MsgBoxStyle.YesNo
+                            Title = "Found Job Number and Customer information does not match."
+                            Response = MsgBox(Msg, Style, Title)
+
+                            If Response = 6 Then
+                                JobNoCustOldReplace = JobNoCustNew
+                                JobNoCustOld = JobNoCustOldReplace
+                            Else
+                                JobNoCustOldReplace = InputBox("Please type in the correct information for your Job Number: Format = JobNo/Customer Info Example: 5608-1179/DOMINION ENERGY")
+                            End If
+                        Else
+                            JobNoCustOld = JobNoCustOldReplace           '-------DJL-07-30-2025      'Added
+                        End If
+                    End If
+
+                        Select Case True
                         Case FoundItemOnOldBOM = "FOUND"                       'This Column Number has changed.
                             JBFound = jB
                             GoTo NextjB2
@@ -285,14 +312,14 @@ NextiA:
                             End If
 
                             If ShpMkNew = ShpMkOld Then       'If NewArray(4, iB) = OldArray(4, jB) Then
-                                If JobNoCustOld <> JobNoCustNew Then
-                                    JobNoCustOld = JobNoCustOld.Replace("-", "")    '-------New format created a problem 212-23-012 example'-------DJL-------11-29-2023
-                                    JobNoCustNew = JobNoCustNew.Replace("-", "")
-                                End If
+                                'If JobNoCustOld <> JobNoCustNew Then           '-------DJL-07-30-2025      'Removed below.
+                                '    JobNoCustOld = JobNoCustOld.Replace("-", "")    '-------New format created a problem 212-23-012 example'-------DJL-------11-29-2023
+                                '    JobNoCustNew = JobNoCustNew.Replace("-", "")
+                                'End If
 
-                                If InStr(JobNoCustNew, JobNoCustOld) > 0 And JobNoCustOld <> "" Then           '-------DJL-06-30-2025      "Found that Just the City and State was missing.
-                                    JobNoCustNew = JobNoCustOld
-                                End If
+                                'If InStr(JobNoCustNew, JobNoCustOld) > 0 And JobNoCustOld <> "" Then           '-------DJL-06-30-2025      "Found that Just the City and State was missing.
+                                '    JobNoCustNew = JobNoCustOld
+                                'End If
 
                                 If JobNoCustNew = JobNoCustOld Then
 FixNames:
