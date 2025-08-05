@@ -949,6 +949,8 @@ Err_BOM_Menu_Load:
 
         On Error GoTo Err_StartButton_Click
 
+        CurrentDwgRev = Me.ComboBox1.SelectedItem               '-------DJL-08-05-2025
+
         If Me.ComboBox1.Text = vbNullString Then
             MsgBox("Please Select a revision number For Shipping List")
             Exit Sub
@@ -1661,7 +1663,7 @@ EndProcess2:
             '-------DJL-------10-31-2023----------------------------------------------------------------Move to function CreateSpSht
             CompareShipList()       '-------------Compare program look for Deleted, New Items ETC.
         Else
-            If CurrentDwgRev = "0" Then
+            If CurrentDwgRev = "0" Or CurrentDwgRev = "" Then
                 '----------------------------------------Fix All Lines to Green when Revision Is Zero....
                 NewShipListSht = ExcelApp.Application.ActiveWorkbook.Sheets("Shipping List")
                 FormatShipListRev0(NewBOM, OldBOM, ShipListSht, BOMSheet, CntItems, StrLineNo)

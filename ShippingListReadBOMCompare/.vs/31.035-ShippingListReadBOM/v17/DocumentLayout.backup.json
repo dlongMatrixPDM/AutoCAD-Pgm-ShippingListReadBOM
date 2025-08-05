@@ -1,24 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\ShippingListWithCompare-New\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\",
+  "WorkspaceRootPath": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|31.035-ShippingListReadBOM||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA76DBF4-5861-2C00-0F2A-00912C781285}|31.035-ShippingListReadBOM.vbproj|c:\\working copy github-pdm-2024-fileschkout-new\\autocad programs\\shippinglistwithcompare-new\\autocad-pgm-shippinglistreadbom\\shippinglistreadbomcompare\\31.035-comparison.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{EA76DBF4-5861-2C00-0F2A-00912C781285}|31.035-ShippingListReadBOM.vbproj|solutionrelative:31.035-comparison.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA76DBF4-5861-2C00-0F2A-00912C781285}|31.035-ShippingListReadBOM.vbproj|c:\\working copy github-pdm-2024-fileschkout-new\\autocad programs\\shippinglistwithcompare-new\\autocad-pgm-shippinglistreadbom\\shippinglistreadbomcompare\\31.035-shippinglist menu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{EA76DBF4-5861-2C00-0F2A-00912C781285}|31.035-ShippingListReadBOM.vbproj|c:\\working copy github-pdm-2024-fileschkout-new\\autocad programs\\autocad-pgm-shippinglistreadbom\\shippinglistreadbomcompare\\31.035-shippinglist menu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{EA76DBF4-5861-2C00-0F2A-00912C781285}|31.035-ShippingListReadBOM.vbproj|solutionrelative:31.035-shippinglist menu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA76DBF4-5861-2C00-0F2A-00912C781285}|31.035-ShippingListReadBOM.vbproj|c:\\working copy github-pdm-2024-fileschkout-new\\autocad programs\\shippinglistwithcompare-new\\autocad-pgm-shippinglistreadbom\\shippinglistreadbomcompare\\31.035-shippinglist menu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{EA76DBF4-5861-2C00-0F2A-00912C781285}|31.035-ShippingListReadBOM.vbproj|C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-shippinglist menu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{EA76DBF4-5861-2C00-0F2A-00912C781285}|31.035-ShippingListReadBOM.vbproj|solutionrelative:31.035-shippinglist menu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA76DBF4-5861-2C00-0F2A-00912C781285}|31.035-ShippingListReadBOM.vbproj|c:\\working copy github-pdm-2024-fileschkout-new\\autocad programs\\shippinglistwithcompare-new\\autocad-pgm-shippinglistreadbom\\shippinglistreadbomcompare\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|cc4014f5-b18d-439c-9352-f99d984cca85"
+      "AbsoluteMoniker": "D:0:0:{EA76DBF4-5861-2C00-0F2A-00912C781285}|31.035-ShippingListReadBOM.vbproj|C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-comparison.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{EA76DBF4-5861-2C00-0F2A-00912C781285}|31.035-ShippingListReadBOM.vbproj|solutionrelative:31.035-comparison.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA76DBF4-5861-2C00-0F2A-00912C781285}|31.035-ShippingListReadBOM.vbproj|c:\\working copy github-pdm-2024-fileschkout-new\\autocad programs\\autocad-pgm-shippinglistreadbom\\shippinglistreadbomcompare\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|cc4014f5-b18d-439c-9352-f99d984cca85"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,18 +28,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "31.035-ShippingListReadBOM",
-              "DocumentMoniker": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\ShippingListWithCompare-New\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-ShippingListReadBOM.vbproj",
-              "RelativeDocumentMoniker": "31.035-ShippingListReadBOM.vbproj",
-              "ToolTip": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\ShippingListWithCompare-New\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-ShippingListReadBOM.vbproj*",
-              "RelativeToolTip": "31.035-ShippingListReadBOM.vbproj*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-30T20:56:54.062Z",
+              "DocumentIndex": 1,
+              "Title": "31.035-ShippingList Menu.vb",
+              "DocumentMoniker": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-ShippingList Menu.vb",
+              "RelativeDocumentMoniker": "31.035-ShippingList Menu.vb",
+              "ToolTip": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-ShippingList Menu.vb",
+              "RelativeToolTip": "31.035-ShippingList Menu.vb",
+              "ViewState": "AgIAAG4GAAAAAAAAAAAnwIgGAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-30T19:41:26.017Z",
               "EditorCaption": ""
             },
             {
@@ -52,41 +53,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "31.035-Comparison.vb",
-              "DocumentMoniker": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\ShippingListWithCompare-New\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-Comparison.vb",
-              "RelativeDocumentMoniker": "31.035-Comparison.vb",
-              "ToolTip": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\ShippingListWithCompare-New\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-Comparison.vb",
-              "RelativeToolTip": "31.035-Comparison.vb",
-              "ViewState": "AgIAAMUAAAAAAAAAAAA1wNMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-07-30T19:51:39.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "31.035-ShippingList Menu.vb",
-              "DocumentMoniker": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\ShippingListWithCompare-New\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-ShippingList Menu.vb",
-              "RelativeDocumentMoniker": "31.035-ShippingList Menu.vb",
-              "ToolTip": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\ShippingListWithCompare-New\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-ShippingList Menu.vb",
-              "RelativeToolTip": "31.035-ShippingList Menu.vb",
-              "ViewState": "AgIAAH4QAAAAAAAAAAAYwIsQAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-07-30T19:41:26.017Z",
+              "DocumentIndex": 0,
+              "Title": "31.035-ShippingListReadBOM",
+              "DocumentMoniker": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-ShippingListReadBOM.vbproj",
+              "RelativeDocumentMoniker": "31.035-ShippingListReadBOM.vbproj",
+              "ToolTip": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-ShippingListReadBOM.vbproj",
+              "RelativeToolTip": "31.035-ShippingListReadBOM.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-30T20:56:54.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "31.035-Comparison.vb",
+              "DocumentMoniker": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-Comparison.vb",
+              "RelativeDocumentMoniker": "31.035-Comparison.vb",
+              "ToolTip": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-Comparison.vb",
+              "RelativeToolTip": "31.035-Comparison.vb",
+              "ViewState": "AgIAAMUAAAAAAAAAAAA1wNMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-30T19:51:39.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "31.035-ShippingList Menu.vb [Design]",
-              "DocumentMoniker": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\ShippingListWithCompare-New\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-ShippingList Menu.vb",
+              "DocumentMoniker": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-ShippingList Menu.vb",
               "RelativeDocumentMoniker": "31.035-ShippingList Menu.vb",
-              "ToolTip": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\ShippingListWithCompare-New\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-ShippingList Menu.vb [Design]",
+              "ToolTip": "C:\\Working Copy GitHub-PDM-2024-FilesChkOut-New\\AutoCAD Programs\\AutoCAD-Pgm-ShippingListReadBOM\\ShippingListReadBOMCompare\\31.035-ShippingList Menu.vb [Design]",
               "RelativeToolTip": "31.035-ShippingList Menu.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-07-30T18:33:38.319Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-30T18:33:38.319Z"
             }
           ]
         }
