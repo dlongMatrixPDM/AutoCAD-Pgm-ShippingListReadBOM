@@ -12,8 +12,8 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("Shipping List Generator")> 
 <Assembly: AssemblyDescription("Produce list of Items to be shipped.")> 
-<Assembly: AssemblyCompany("Matrix PDM Engineering")> 
-<Assembly: AssemblyProduct("Create Shipping List and Compare to Previous version-Win10")> 
+<Assembly: AssemblyCompany("Matrix PDM Engineering")>
+<Assembly: AssemblyProduct("Create Shipping List and Compare to Previous version-Win11")>
 <Assembly: AssemblyCopyright("Copyright © Matrix  2010")> 
 <Assembly: AssemblyTrademark("")>
 <Assembly: AssemblyCulture("")>

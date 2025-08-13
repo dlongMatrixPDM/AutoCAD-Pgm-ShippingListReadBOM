@@ -10,7 +10,7 @@ Friend Class ViewFilesDialog
 
         Me.Text = "Bulk BOM Files in: " & BOMMnu.File1.Text
         BOMorShip = "*BOM*.XLS*"
-        Call ViewFiles(BOMorShip)                'BOMorShip = "*BOM*.XLS*" or "*SH*.XLS*"
+        Call ViewFiles(BOMorShip)
     End Sub
 	
 	Private Sub CommandButton1_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles CommandButton1.Click
